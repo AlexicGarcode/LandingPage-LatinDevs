@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latin Developers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/skull.png" />
+  </head>
+  <body>
+    <header class="sticky">
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">Updates</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+
+    <span class="jumbotron_container">
+      <div class="jumbotron_info">
+        <!-- Asignar clases a los h1 y h5 para que tengan margen entre sí -->
+        <h1>Take your business to the <strong>next level</strong></h1>
+        <br />
+        <p>
+          Wheather you are looking for online presence or to develop web based
+          applications we are your best option
+        </p>
+        <br />
+        <form action="/action_page.php">
+          <label for="phone">Enter your email for a free consultation:</label
+          ><br /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="my email"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          /><br /><br />
+          <input type="submit" />
+        </form>
+      </div>
+      <div class="jumbotron_image">
+        <!-- <img src="./img/Developer.png" alt="developer-business"> -->
+      </div>
+    </span>
+
+    <span class="Cards_container">
+      <!--  <h1>Choose your Character</h1>
+      
+              <div class="cards_titles"> 
+            
+            
+        </div> -->
+
+      
+        <div class="card1">
+          <div class="card">
+            <img
+              class="hero-image"
+              src="images/Part_Time_Girl.svg"
+              alt="hero-image"
+            />
+            <div class="container">
+              <h2 class="title">Part Time</h2>
+              <p class="order-description">
+                Designed for those companies with limited budget or that need
+                temporary help.
+              </p>
+              <div class="plan-container">
+                <img src="images/codeIcon.svg" alt="icon_music" />
+                <div class="plan-description">
+                  <strong>Bi-weekly</strong>
+                  <p>$35/hr</p>
+                </div>
+                <a href="#">I want more info</a>
+              </div>
+              <button class="proceed-button">
+                <a href="https://wise.com/login/" target="_blank"
+                  >Proceed to Payment</a
+                >
+              </button>
+              <button class="cancel-button">Request a Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card2">
+          <div class="card">
+            <img
+              class="hero-image"
+              src="images/Full_Time.svg"
+              alt="hero-image"
+            />
+            <div class="container">
+              <h2 class="title">Full Time</h2>
+              <p class="order-description">
+                Designed for those companies that look to grow their current
+                development team
+              </p>
+              <div class="plan-container">
+                <img src="images/codeIcon.svg" alt="icon_music" />
+                <div class="plan-description">
+                  <strong>Bi-weekly</strong>
+                  <p>$40/hr</p>
+                </div>
+                <a href="#">I want more info</a>
+              </div>
+              <button class="proceed-button">
+                <a href="https://wise.com/login/" target="_blank"
+                  >Proceed to Payment</a
+                >
+              </button>
+              <button class="cancel-button">Request a Demo</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card3">
+          <div class="card">
+            <img class="hero-image" src="images/Project.svg" alt="hero-image" />
+            <div class="container">
+              <h2 class="title">Projects</h2>
+              <p class="order-description">
+                Designed for those companies or individuals that want to bring
+                their ideas to life
+              </p>
+              <div class="plan-container">
+                <img src="images/codeIcon.svg" alt="icon_music" />
+                <div class="plan-description">
+                  <strong>Starting at</strong>
+                  <p>$50/hr</p>
+                </div>
+                <a href="#">I want more info</a>
+              </div>
+              <button class="proceed-button">
+                <a href="https://wise.com/login/" target="_blank"
+                  >Proceed to Payment</a
+                >
+              </button>
+              <button class="cancel-button">Request a Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+
+    <span class="footer_container">
+      <ul class="f_WhoWeAre">
+        <li class="f_list_title">Who we are</li>
+        <li>Once upon a time</li>
+        <li>Meet our devs</li>
+        <li>Meet the team</li>
+        <li>Careers</li>
+      </ul>
+
+      <ul class="f_NichesWeServe">
+        <li class="f_list_title">Industries</li>
+        <li>Health</li>
+        <li>Automotive</li>
+        <li>Guitarists</li>
+        <li>Property Management</li>
+        <li>Digital Marketing</li>
+      </ul>
+
+      <ul class="f_resources">
+        <li class="f_list_title">Resources</li>
+        <li><a href="#">Blog</a></li>
+        <li>FAQ</li>
+        <li>Interview with Vicente Garcia</li>
+        <li>Client Portal Login</li>
+        <li>Rates and Policies</li>
+        <li>Terms and Conditions</li>
+        <li>Privacy Policy</li>
+        <li>Sitemap</li>
+      </ul>
+
+      <ul class="f_letsTalk">
+        <li class="f_list_title">Lets talk!</li>
+        <li>+52 (331) 451-1552</li>
+        <li>YouTube</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
+        <li>LinkedIn</li>
+      </ul>
+    </span>
+
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
